@@ -87,7 +87,7 @@ This library is build with TypeScript, so type-definitions are shipped out-of-th
 We're only scratching the surface here, but here's a quick example to get some sense what this library feels like and how to get going.
 
 ```jsx
-import * React from "react";
+import * as React from "react";
 import { useLayer, useHover, Arrow } from "react-laag";
 
 function Tooltip({ children, content }) {
